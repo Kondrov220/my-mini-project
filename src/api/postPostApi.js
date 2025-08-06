@@ -7,7 +7,7 @@ export const postPostApi = async (post) => {
     },
   };
   try {
-    return await fetch("http://localhost:3000/posts", options).then((res) =>
+    return await fetch("https://68925892447ff4f11fc00228.mockapi.io/api/post/mini", options).then((res) =>
       res.json()
     );
   } catch (error) {
